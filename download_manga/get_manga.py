@@ -46,7 +46,7 @@ def get_imgs(url, path):
     imgs = get_all_images(url)
     i = 0
     for img in imgs:
-        filename = download(img, path, "page_" + str(i))
+        filename = download(img, path, "page_" + '0'*(3-len(str(i))) + str(i))
         image_list.append(filename)
         i += 1
     return image_list
