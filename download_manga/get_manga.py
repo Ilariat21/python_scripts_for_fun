@@ -1,4 +1,3 @@
-from unicodedata import name
 import requests
 import os 
 import shutil
