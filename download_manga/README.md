@@ -5,7 +5,7 @@ To install the dependencies, run
 ```pip3 install -r requirements.txt```
 
 
-*(For example)* To download the ***162nd chapter of Jujutsu Kaisen*** manga from https://jujmanga.com/manga/jujutsu-kaisen-chapter-162/ and name it ***jjk_ch162*** , run
+*(For example)* To download the ***162nd chapter of Jujutsu Kaisen*** manga from https://jujmanga.com/manga/jujutsu-kaisen-chapter-162/ and name it ***jjk_ch162***, run
 
 `python get_manga.py -n jjk_ch162 https://jujmanga.com/manga/jujutsu-kaisen-chapter-162/`
 
